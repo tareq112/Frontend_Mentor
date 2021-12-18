@@ -5,16 +5,15 @@
 .container{
     /* background: hsl(204, 81%, 61%); */
     border:  5px solid goldenrod;
+    height: auto;
     
 }
 .section1{
     background: url(./images/desktop/image-header.jpg)  no-repeat center center / cover;
-    height:80vh;
+    height:70vh;
     background-position: center bottom;
     object-fit: cover;
-   /* height: auto;
-     width: 100%;
-    height: 450px; */
+   
 }
           /* menu part  */
 
@@ -59,73 +58,148 @@
 /* section 2 */
 .section2{
    background: offwhite;
+   display: flex;
+   height: 40vh;
 }
-.section2_divs{
-    display: flex;
+.left_text_container{
     height: auto;
-   
+    flex: 1;
 }
-.section2_div_text_left{
-    flex: 50%;
-    text-align: left;
-    padding: 25px;
+.left_text{
+   border: 1px solid blue;
 }
-.section2_div_text_left h1{
-    color: black;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    font-family: Arial, Helvetica, sans-serif;
- }
- .section2_div_text_left p{
-    color: rgb(165, 143, 101);
-    padding-bottom: 10px;
-    padding-left: 5px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
- }
- .section2_div_text_left img{
-     height: 35px;
-     width: 120px;
- }
-.section2_div_img_right{
-    flex: 50%;
-    background: url(./images/desktop/image-transform.jpg)  no-repeat center center / cover;
+.right_img_container{
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
     object-fit: cover;
-   width: 100%;
+    width: 100%;
+    height: 100%;
+    flex: 1;
    
 }
+
 /* section 3 */
 .section3{
     background: offwhite;
+   
  }
  .section3_divs{
      display: flex;
-     height: auto;
-    
- }
+     height: 40vh;
+}
  .section3_div_text_right{
-    flex: 50%;
+    flex: 1;
     text-align: left;
-    padding: 25px;
+    color: rgb(165, 143, 101);
+    
+}
+.section3_div_text_right p{
+    color: rgb(165, 143, 101);
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .section3_div_img_left{
-    flex: 50%;
-    background: url(./images/desktop/image-stand-out.jpg)  no-repeat center center / cover;
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
     object-fit: cover;
-    width: 100%;
+    flex: 1;
+    
 }
 .section3_div_text_right h1{
     color: black;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 5px;
     font-family: Arial, Helvetica, sans-serif;
  }
  .section3_div_text_right p{
     color: rgb(165, 143, 101);
-    padding-bottom: 10px;
-    padding-left: 5px;
-    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+ } 
+
+ /* background img practise 
+ :root{
+     --ff-primary: basic-sans, sans-serif;
+     --clr-primary: #ee6352;
+     --clr-body: #333;
+     --clr-bg: #ddd;
+     --spacer: 1rem;
  }
+ *,
+ *::before,
+ *::after{
+     box-sizing: border-box;
+ }
+ 
+ h1,h2,h3,p{
+     margin: 0;
+ }
+ p{
+     color:white;
+ }
+ .flow > * + *{
+     margin-top: var(--flow-space, var(--spacer));
+ }
+
+ body{
+    font-family: var(--ff-primary);
+    min-height: 100vh;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: var(--clr-body);
+    background: var(--clr-bg);
+    padding: 3rem;
+    text-align: center;
+ }
+ a{
+     color: var(--clr-primary);
+ }
+ .content{
+    width: 70vw;
+    margin: 3rem auto;
+    padding: 3em;
+    box-shadow: 0 0 3em rgba(0,0,0,.15);
+    background: white;
+ }
+ .title{
+     font-weight: 900;
+     color: var(--clr-primary);
+     line-height: .8;
+     margin-bottom: 1em;
+ }
+ .image-grid{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-auto-rows: 15rem;
+
+     /* & > *{
+         display: grid;
+         place-items:center;
+         outline:3px solid red;
+
+         & > *{
+             padding: .25em .75em;
+             border-radius: .25em;
+             background: rgba(0,0,0,.75);
+             color: #fff;
+             letter-spacing: 1px;
+         }
+
+     } 
+ }
+ [class *= bg-]{
+     background-image: url("https://assets.codepen.io/308367/home-gym.jpg");
+    background-size: cover;
+    }
+    .bg-image {
+        outline: 2px solid black;
+         background-size: 50% 50px;
+        padding: 20em;
+        background-image: 
+          url("https://assets.codepen.io/308367/house.jpg"),
+          url("https://assets.codepen.io/308367/f47b1-bandeirinha-azul-e-branca-png.png");;
+        background-repeat: no-repeat, repeat;
+        background-position: right -20% bottom 0px, top left;
+        background-size: auto, 10%;
+      } */
