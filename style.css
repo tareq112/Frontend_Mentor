@@ -222,3 +222,15 @@
        align-items: center;
        justify-content: center;
    }
+   .f_heading{
+       padding: 10px;
+   }
+   .f_menu{
+       display: flex;
+       
+   }
+   .f_menu li{
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type:none;
+   }
