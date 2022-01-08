@@ -152,17 +152,43 @@
 .testimonial_heading{
         padding: 15px;
         text-align: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     
 }
 .testimonial_heading h2{
+    color:rgb(121, 108, 89);
     padding: 15px;
     text-align: center;
+    letter-spacing: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
  }
 
  .feedbacks_container{
      display: flex;
-     border: 1px solid rgb(28, 28, 114);
+     /* border: 1px solid rgb(28, 28, 114); */
  }
 
- 
+ .feedback{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .feedback img{
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     padding: 25px;
+ }
+ .feedback_Text{
+     text-align: center;
+     font-style: italic;
+     padding: 20px;
+     font-family:    'Times New Roman', serif;
+     letter-spacing: .5px;
+     line-height: 22px;
+     font-size: 18px;
+     color:rgb(121, 108, 89);
+ }
+ .designation{
+    color:rgb(121, 108, 89);
+ }
