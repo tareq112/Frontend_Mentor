@@ -137,12 +137,24 @@
     left: 15%;
     width: 300px;
 }
+.image_bottom_text_left h2{
+    text-align: center;
+}
+.image_bottom_text_left p{
+    text-align: center;
+}
 .image_bottom_text_right{
     position: absolute;
     top: 60%;
     left: 15%;
     /* transform: translate(-50%, -50%); */
     width: 300px;
+}
+.image_bottom_text_right h2{
+    text-align: center;
+}
+.image_bottom_text_right p{
+    text-align: center;
 }
 .left_sec4 img{
     height: 100%;
@@ -205,6 +217,7 @@
      line-height: 22px;
      font-size: 18px;
      color:rgb(121, 108, 89);
+     height: 40%;
  }
  .designation{
     color:rgb(121, 108, 89);
@@ -239,10 +252,11 @@
        align-items: center;
        justify-content: center;
        padding: 10px;
-       background-color: rgb(90, 204, 204);
+       background-color: rgb(146, 209, 195);
    }
    .f_heading{
        padding: 10px;
+       color: hsl(212, 27%, 19%);
    }
    .f_menu{
        display: flex;
