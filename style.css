@@ -126,9 +126,23 @@
     display: flex;
     height: 400px;
 }
-.left_sec4, .right_sec4{
+.left_sec4, .right_sec4, .image_bottom_text_left, .image_bottom_text_right{
     flex: 1;
+    position: relative;
    
+}
+.image_bottom_text_left{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    width: 300px;
+}
+.image_bottom_text_right{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    /* transform: translate(-50%, -50%); */
+    width: 300px;
 }
 .left_sec4 img{
     height: 100%;
